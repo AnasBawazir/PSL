@@ -3,4 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home3/psllogco/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp ar.html $DEPLOYPATH
+    - /bin/cp forms $DEPLOYPATH
+    - /bin/cp assets $DEPLOYPATH
