@@ -511,16 +511,29 @@ section {
   text-align: center;
 }
 .clients img {
+  height: 200px;
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
+}
+.clients h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2d405f;
+}
+a {
+  color: #2d405f;
 }
 .clients img:hover {
   transform: scale(1.15);
 }
 @media (max-width: 768px) {
   .clients img {
+    height: 100px;
     max-width: 40%;
   }
 }
